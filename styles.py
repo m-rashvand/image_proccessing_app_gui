@@ -85,3 +85,20 @@ QLabel {
     margin: 0px 10px;
 }
 """
+
+checkBoxStyle = """
+QCheckBox {
+    width: 90%;
+    height: 20px;
+    background: #e0dede;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    margin: 0px 10px;
+    margin-top: 35px;
+}
+QCheckBox:focus {
+    background: #fff;
+    border: 2px solid #573b8a;
+}
+"""
